@@ -21,55 +21,68 @@
 
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
-  <body>
+  <body class="bg-dark-blue-800 font-outfit text-[18px]">
     <!-- Container -->
-    <div>
+    <div
+      class="h-screen max-w-screen-xl mx-auto flex justify-around items-center"
+    >
       <!-- Card -->
-      <div>
+      <div class="w-[350px] bg-dark-blue-700 p-6 rounded-xl">
         <!-- Image -->
         <div>
           <img
             src="./images/image-equilibrium.jpg"
             alt="equilibrium"
+            class="rounded-xl"
           />
         </div>
 
         <!-- Content -->
         <div>
           <!-- Heading -->
-          <h4>Equilibrium #3429</h4>
+          <h4 class="text-white font-semibold mt-6">Equilibrium #3429</h4>
 
           <!-- Description -->
-          <p>Our Equilibrium collection promotes balance and calm.</p>
+          <p class="text-soft-blue mt-4 font-light">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
 
           <!-- Info -->
-          <div>
+          <div
+            class="flex justify-between mt-4 pb-7 border-b border-solid border-dark-blue-600"
+          >
             <!-- Price -->
-            <span>
+            <span class="flex items-center">
               <img
                 src="./images/icon-ethereum.svg"
                 alt="ethereum"
               />
-              0.041ETH
+              <p class="ml-2 text-cyan">0.041 ETH</p>
             </span>
 
             <!-- Deadline -->
-            <span>
+            <span class="flex items-center">
               <img
                 src="./images/icon-clock.svg"
                 alt="clock"
               />
-              3 days left
+              <p class="ml-2 text-soft-blue font-light">3 days left</p>
             </span>
           </div>
 
           <!-- Author -->
-          <div>
-            <img
-              src="./images/image-avatar.png"
-              alt="avatar"
-            />
-            <p>Creation of <span>Jules Wyvern</span></p>
+          <div class="flex items-center pt-4 mb-2">
+            <div class="h-10 rounded-full border border-white">
+              <img
+                src="./images/image-avatar.png"
+                alt="avatar"
+                class="h-full"
+              />
+            </div>
+            <p class="ml-4 text-soft-blue">
+              Creation of
+              <span class="ml-1 text-white font-light">Jules Wyvern</span>
+            </p>
           </div>
         </div>
       </div>

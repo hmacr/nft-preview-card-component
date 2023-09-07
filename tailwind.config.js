@@ -12,6 +12,7 @@ export default {
         700: 'hsl(216, 50%, 16%)',
         800: 'hsl(217, 54%, 11%)',
       },
+      white: 'hsl(0, 0%, 100%)',
     },
     fontFamily: {
       outfit: ['Outfit', ...defaultTheme.fontFamily.serif],
