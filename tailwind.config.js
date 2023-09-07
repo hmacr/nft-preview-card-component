@@ -17,5 +17,11 @@ export default {
     fontFamily: {
       outfit: ['Outfit', ...defaultTheme.fontFamily.serif],
     },
+    extend: {
+      screens: {
+        sm: '300px',
+        md: '400px',
+      },
+    },
   },
 };
